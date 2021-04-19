@@ -1,0 +1,16 @@
+[package]
+name = "anykind"
+version = "0.0.0"
+authors = ["Justin Beaurivage <justbeaurivage@gmail.com>"]
+edition = "2018"
+
+description = "Crate name reserved for the AnyKind derive proc-macro"
+repository = "https://github.com/jbeaurivage/anykind"
+documentation = "https://docs.rs/anykind"
+readme = "README.md"
+license = "MIT/Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
